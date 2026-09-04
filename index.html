@@ -19,104 +19,239 @@
     </header>
 
     <main>
-        <!-- SECCIÓN 1: FIGURAS DE TAMAÑO NORMAL -->
+        <!-- SECCIÓN 1: 10 FIGURAS TAMAÑO NORMAL -->
         <section>
-            <h2>Figuras Escala / Tamaño Normal</h2>
+            <h2>Figuras Escala / Tamaño Normal (10)</h2>
             <div class="productos-grid">
                 
-                <article>
-                    <h3>Jabami Yumeko</h3>
-                    <img src="https://alitools.io/en/showcase/image?url=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FH13d4205561a0494fbcf07e868a2bc443Q.jpg" alt="Figura Jabami Yumeko Kakegurui">
+                <article onclick="abrirModal('Jabami Yumeko', 'img/1.jpg', 'Kakegurui', '21.5 cm', '450 g', '$45.990 CLP', 'Figura de colección PVC con base temática.')">
+                    <h3>1. Jabami Yumeko</h3>
+                    <img src="img/1.jpg" alt="Figura Jabami Yumeko">
                     <p>Kakegurui - Figura de colección PVC 21.5 cm.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>Marin Kitagawa</h3>
-                    <img src="https://tienda.richirocko.com/wp-content/uploads/2023/05/Marin-Kitagawa-1.jpg" alt="Figura Marin Kitagawa">
-                    <p>My Dress-Up Darling - Escala 1/7 de alta precisión.</p>
+                <article onclick="abrirModal('Marin Kitagawa', 'img/2.jpg', 'My Dress-Up Darling', '24.0 cm', '500 g', '$52.990 CLP', 'Escala 1/7 detallada con uniforme escolar.')">
+                    <h3>2. Marin Kitagawa</h3>
+                    <img src="img/2.jpg" alt="Figura Marin Kitagawa">
+                    <p>My Dress-Up Darling - Escala 1/7 detallada.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>Goku Super Saiyan</h3>
-                    <img src="https://site-911874.mozfiles.com/files/911874/medium/Goku_Super_Saiyan.jpg" alt="Figura Goku Super Saiyan">
-                    <p>Dragon Ball Z - Estatua iluminada con luz LED en base.</p>
+                <article onclick="abrirModal('Goku Super Saiyan', 'img/3.jpg', 'Dragon Ball Z', '30.0 cm', '850 g', '$68.990 CLP', 'Base con iluminación LED en estatua de alta calidad.')">
+                    <h3>3. Goku Super Saiyan</h3>
+                    <img src="img/3.jpg" alt="Figura Goku Super Saiyan">
+                    <p>Dragon Ball Z - Base con iluminación LED en estatua.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>Naruto Rasenshuriken</h3>
-                    <img src="https://m.media-amazon.com/images/I/71Y-15yF1-L._AC_SL1500_.jpg" alt="Figura Naruto Rasenshuriken">
+                <article onclick="abrirModal('Naruto Rasenshuriken', 'img/4.jpg', 'Naruto Shippuden', '22.0 cm', '600 g', '$59.990 CLP', 'Tamashii Nations - FiguartsZERO Kizuna Relation.')">
+                    <h3>4. Naruto Rasenshuriken</h3>
+                    <img src="img/4.jpg" alt="Figura Naruto Rasenshuriken">
                     <p>Tamashii Nations - FiguartsZERO Kizuna Relation.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>Brook</h3>
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_688177-MLC74102604812_012024-O.webp" alt="Figura Brook One Piece">
-                    <p>One Piece - Figura articulada coleccionable de 33 cm.</p>
+                <article onclick="abrirModal('Brook (One Piece)', 'img/5.jpg', 'One Piece', '33.0 cm', '700 g', '$64.990 CLP', 'Figura de acción articulada con efectos espirituales.')">
+                    <h3>5. Brook (One Piece)</h3>
+                    <img src="img/5.jpg" alt="Figura Brook One Piece">
+                    <p>One Piece - Figura de acción articulada de 33 cm.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Ken Kaneki', 'img/6.jpg', 'Tokyo Ghoul', '22.5 cm', '480 g', '$42.990 CLP', 'Figura detallada PVC con opción de máscara kagune.')">
+                    <h3>6. Ken Kaneki</h3>
+                    <img src="img/6.jpg" alt="Figura Ken Kaneki">
+                    <p>Tokyo Ghoul - Figura detallada PVC con máscara.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Satoru Gojo', 'img/7.jpg', 'Jujutsu Kaisen', '25.0 cm', '520 g', '$49.990 CLP', 'Figura escala con efecto translúcido de energía azul.')">
+                    <h3>7. Satoru Gojo</h3>
+                    <img src="img/7.jpg" alt="Figura Satoru Gojo">
+                    <p>Jujutsu Kaisen - Figura con efecto de energía.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Eren Jaeger', 'img/8.jpg', 'Attack on Titan', '26.0 cm', '650 g', '$57.990 CLP', 'Edición combate con equipo de maniobras tridimensional.')">
+                    <h3>8. Eren Jaeger</h3>
+                    <img src="img/8.jpg" alt="Figura Eren Jaeger">
+                    <p>Attack on Titan - Edición combate tridimensional.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Nezuko Kamado', 'img/9.jpg', 'Demon Slayer', '18.0 cm', '400 g', '$39.990 CLP', 'Edición especial incluida con caja de madera de exhibición.')">
+                    <h3>9. Nezuko Kamado</h3>
+                    <img src="img/9.jpg" alt="Figura Nezuko Kamado">
+                    <p>Demon Slayer - Edición con caja de exhibición.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Luffy Gear 5', 'img/10.jpg', 'One Piece', '28.0 cm', '800 g', '$72.990 CLP', 'Figura Awakening con nube de humo y acabado perlado.')">
+                    <h3>10. Luffy Gear 5</h3>
+                    <img src="img/10.jpg" alt="Figura Luffy Gear 5">
+                    <p>One Piece - Figura Awakening transmisión especial.</p>
                     <button type="button">Comprar</button>
                 </article>
 
             </div>
         </section>
 
-        <!-- SECCIÓN 2: FIGURAS CHIBIS -->
+        <!-- SECCIÓN 2: 10 FIGURAS CHIBIS -->
         <section>
-            <h2>Colección Figuras Chibis & Nendoroid</h2>
+            <h2>Colección Figuras Chibis & Nendoroid (10)</h2>
             <div class="productos-grid">
 
-                <article>
-                    <h3>Hatsune Miku x Cinnamoroll</h3>
-                    <img src="https://tienda.richirocko.com/wp-content/uploads/2023/08/Miku-Cinnamoroll-1.jpg" alt="Figura Chibi Hatsune Miku Cinnamoroll">
-                    <p>Colaboración Sanrio - Figura Chibi estilo Kawaii.</p>
+                <article onclick="abrirModal('Hatsune Miku x Cinnamoroll', 'img/11.jpg', 'Vocaloid x Sanrio', '10.0 cm', '200 g', '$29.990 CLP', 'Colaboración especial Sanrio - Figura Chibi Kawaii.')">
+                    <h3>1. Hatsune Miku x Cinnamoroll</h3>
+                    <img src="img/11.jpg" alt="Figura Chibi Hatsune Miku">
+                    <p>Colaboración Sanrio - Figura Chibi Kawaii.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>L (Death Note)</h3>
-                    <img src="https://lomasoriginal.com/wp-content/uploads/2021/04/Figura-L-Chibi-Death-Note-Good-Smile-Company-10cm.jpg" alt="Figura L Chibi Death Note">
-                    <p>Death Note - Figura Chibi Good Smile Company 10 cm.</p>
+                <article onclick="abrirModal('L (Death Note)', 'img/12.jpg', 'Death Note', '10.0 cm', '220 g', '$34.990 CLP', 'Figura Chibi Good Smile con su sillón característico.')">
+                    <h3>2. L (Death Note)</h3>
+                    <img src="img/12.jpg" alt="Figura L Chibi">
+                    <p>Death Note - Figura Chibi Good Smile 10 cm.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>Light Yagami Nendoroid 2.0</h3>
-                    <img src="https://tienda.richirocko.com/wp-content/uploads/2022/11/Light-Yagami-1.jpg" alt="Figura Nendoroid Light Yagami">
-                    <p>Death Note - Nendoroid 2.0 con caras e intercambiables.</p>
+                <article onclick="abrirModal('Light Yagami Nendoroid', 'img/13.jpg', 'Death Note', '10.0 cm', '250 g', '$36.990 CLP', 'Nendoroid 2.0 con rostros extra, libreta y manzana.')">
+                    <h3>3. Light Yagami Nendoroid</h3>
+                    <img src="img/13.jpg" alt="Figura Nendoroid Light Yagami">
+                    <p>Death Note - Nendoroid 2.0 con rostros extra.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>Set Haikyuu Chibi</h3>
-                    <img src="https://m.media-amazon.com/images/I/61N3KxX0y1L._AC_SL1000_.jpg" alt="Set Figuras Chibi Haikyuu">
-                    <p>Haikyuu!! - Set de mini estatuas Hinata y Kageyama.</p>
+                <article onclick="abrirModal('Set Haikyuu Chibi', 'img/14.jpg', 'Haikyuu!!', '9.0 cm c/u', '300 g', '$38.990 CLP', 'Set que incluye a Hinata y Kageyama en versión mini.')">
+                    <h3>4. Set Haikyuu Chibi</h3>
+                    <img src="img/14.jpg" alt="Set Figuras Haikyuu">
+                    <p>Haikyuu!! - Set Hinata y Kageyama mini.</p>
                     <button type="button">Comprar</button>
                 </article>
 
-                <article>
-                    <h3>Set Anime Kawaii Mini</h3>
-                    <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=300&h=200&fit=crop" alt="Set Mini Chibis Anime">
-                    <p>Colección variada de miniaturas estilo Chibi.</p>
+                <article onclick="abrirModal('Chibi Pikachu Anime', 'img/15.jpg', 'Pokémon', '8.5 cm', '180 g', '$24.990 CLP', 'Edición especial mini estatua coleccionable de escritorio.')">
+                    <h3>5. Chibi Pikachu Anime</h3>
+                    <img src="img/15.jpg" alt="Figura Pikachu Chibi">
+                    <p>Edición especial mini estatua coleccionable.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Chibi Rem & Ram', 'img/16.jpg', 'Re:Zero', '10.0 cm c/u', '350 g', '$44.990 CLP', 'Set de Nendoroid de las hermanas gemelas con trajes intercambiables.')">
+                    <h3>6. Chibi Rem & Ram</h3>
+                    <img src="img/16.jpg" alt="Rem y Ram Chibi">
+                    <p>Re:Zero - Set Nendoroid hermanas gemelas.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Chibi Anya Forger', 'img/17.jpg', 'Spy x Family', '10.0 cm', '210 g', '$32.990 CLP', 'Figura Nendoroid articulada con su cara sonriente viral.')">
+                    <h3>7. Chibi Anya Forger</h3>
+                    <img src="img/17.jpg" alt="Anya Forger Chibi">
+                    <p>Spy x Family - Figura Nendoroid articulada.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Chibi Tanjiro Kamado', 'img/18.jpg', 'Demon Slayer', '9.5 cm', '190 g', '$22.990 CLP', 'Mini estatua cabezona PVC con base circular.')">
+                    <h3>8. Chibi Tanjiro Kamado</h3>
+                    <img src="img/18.jpg" alt="Tanjiro Chibi">
+                    <p>Demon Slayer - Mini estatua cabezona PVC.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Chibi Sailor Moon', 'img/19.jpg', 'Sailor Moon', '9.0 cm', '170 g', '$26.990 CLP', 'Figuarts Mini - Colección especial con brillo en los ojos.')">
+                    <h3>9. Chibi Sailor Moon</h3>
+                    <img src="img/19.jpg" alt="Sailor Moon Chibi">
+                    <p>Figuarts Mini - Colección especial de escritorio.</p>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <article onclick="abrirModal('Chibi Megumi Fushiguro', 'img/20.jpg', 'Jujutsu Kaisen', '10.0 cm', '230 g', '$33.990 CLP', 'Figura Nendoroid con accesorio de perro de sombras.')">
+                    <h3>10. Chibi Megumi Fushiguro</h3>
+                    <img src="img/20.jpg" alt="Megumi Chibi">
+                    <p>Jujutsu Kaisen - Figura Nendoroid con sombras.</p>
                     <button type="button">Comprar</button>
                 </article>
 
             </div>
         </section>
 
-        <!-- SECCIÓN VIDEO PROMOCIONAL -->
-        <section>
-            <h2>Conoce más sobre nosotros</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video promocional" frameborder="0" allowfullscreen></iframe>
+        <!-- SECCIÓN DE CONTACTO E INFORMACIÓN -->
+        <section class="contacto-section">
+            <h2>Más Información & Contacto Directo</h2>
+            <div class="contacto-card">
+                <p>¿Tienes dudas con los envíos o buscas una figura en particular? ¡Escríbenos a nuestras vías oficiales!</p>
+                <ul>
+                    <li>📱 <strong>Celular / WhatsApp:</strong> +56 9 8765 4321</li>
+                    <li>📧 <strong>Correo Gmail:</strong> animefigures.tienda.oficial@gmail.com</li>
+                    <li>📸 <strong>Instagram:</strong> @animefigures_store.cl</li>
+                </ul>
             </div>
         </section>
     </main>
 
+    <!-- VENTANA EMERGENTE DE LA FIGURA (MODAL) -->
+    <div id="modalVista" class="modal-overlay" onclick="cerrarModalAfuera(event)">
+        <div class="modal-contenido">
+            <button class="btn-cerrar" onclick="cerrarModal()">&times;</button>
+            
+            <div class="modal-imagen">
+                <img id="modalImg" src="" alt="Figura Ampliada">
+            </div>
+
+            <div class="modal-detalles">
+                <div>
+                    <h2 id="modalTitulo">Nombre Figura</h2>
+                    <span id="modalSerie" class="badge-serie">Serie</span>
+                    <p id="modalDescripcion" class="modal-descripcion"></p>
+
+                    <table class="tabla-especificaciones">
+                        <tr>
+                            <td>Altura:</td>
+                            <td id="modalAltura">-</td>
+                        </tr>
+                        <tr>
+                            <td>Peso aprox.:</td>
+                            <td id="modalPeso">-</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <div id="modalPrecio" class="precio-tag">$0</div>
+                    <button type="button" class="btn-modal-comprar">Añadir al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
-        <p>&copy; 2026 AnimeFigures Store - Todos los derechos reservados. Contacto: ventas@animefigures.cl</p>
+        <p>&copy; 2026 AnimeFigures Store - Todos los derechos reservados.</p>
     </footer>
+
+    <!-- SCRIPT PARA ABRIR Y CERRAR EL VISOR DE FIGURAS -->
+    <script>
+        function abrirModal(nombre, imagen, serie, altura, peso, precio, descripcion) {
+            document.getElementById('modalTitulo').textContent = nombre;
+            document.getElementById('modalImg').src = imagen;
+            document.getElementById('modalSerie').textContent = serie;
+            document.getElementById('modalAltura').textContent = altura;
+            document.getElementById('modalPeso').textContent = peso;
+            document.getElementById('modalPrecio').textContent = precio;
+            document.getElementById('modalDescripcion').textContent = descripcion;
+
+            document.getElementById('modalVista').style.display = 'flex';
+        }
+
+        function cerrarModal() {
+            document.getElementById('modalVista').style.display = 'none';
+        }
+
+        function cerrarModalAfuera(event) {
+            if (event.target.id === 'modalVista') {
+                cerrarModal();
+            }
+        }
+    </script>
 
 </body>
 </html>
